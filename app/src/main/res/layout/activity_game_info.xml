@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical"
+    tools:context="com.example.andre.proyectocerti.GameInfoActivity">
+
+    <TextView
+        android:id="@+id/nombreJuegoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Juego"
+        android:textSize="34sp" />
+
+    <ImageView
+        android:id="@+id/imagenJuegoImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/descripcionJuegoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:text="Holas"
+        android:textSize="18sp" />
+
+</LinearLayout>

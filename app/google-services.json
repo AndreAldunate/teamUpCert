@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "443306153781",
+    "firebase_url": "https://gamingchat-af09e.firebaseio.com",
+    "project_id": "gamingchat-af09e",
+    "storage_bucket": "gamingchat-af09e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443306153781:android:0937b6baf8e1c51a",
+        "android_client_info": {
+          "package_name": "com.example.andre.proyectocerti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "443306153781-pfm1e3vo2cgdb9tjrbv6f2li4a539aq5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.andre.proyectocerti",
+            "certificate_hash": "cdc4f539c6ac0b3632111d9f9feba9e3c9a2f325"
+          }
+        },
+        {
+          "client_id": "443306153781-udfunovqg2vse7bnb2qhbp75qg0k2jni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlfRQ8JWZ_q_XXQkyE583kKKZ4wRls4Cs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "443306153781-udfunovqg2vse7bnb2qhbp75qg0k2jni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

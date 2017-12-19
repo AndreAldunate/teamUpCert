@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:autofillHints="@android:color/darker_gray"
+    android:background="@android:color/darker_gray"
+    tools:backgroundTint="@android:color/darker_gray"
+    tools:context="com.example.andre.proyectocerti.PerfilActivity">
+
+    <ImageView
+        android:id="@+id/fotoImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView4"
+        android:layout_toLeftOf="@+id/oldEditText"
+        android:layout_toStartOf="@+id/oldEditText"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+    <Button
+        android:id="@+id/cambiarFotoButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_below="@+id/textView9"
+        android:layout_marginTop="19dp"
+        android:background="@android:color/holo_orange_light"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Cambiar Foto"
+        tools:backgroundTint="@android:color/holo_orange_light" />
+
+    <EditText
+        android:id="@+id/oldEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cambiarButton"
+        android:layout_alignStart="@+id/cambiarButton"
+        android:layout_below="@+id/cambiarFotoButton"
+        android:layout_marginLeft="44dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/newEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/oldEditText"
+        android:layout_alignStart="@+id/oldEditText"
+        android:layout_below="@+id/oldEditText"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/cambiarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newEditText"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_orange_light"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Cambiar contrasena" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_toLeftOf="@+id/newEditText"
+        android:layout_toStartOf="@+id/newEditText"
+        android:text="Antigua contrasela" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/newEditText"
+        android:layout_alignBottom="@+id/newEditText"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:text="Nueva contrasena" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView9"
+        android:layout_marginTop="17dp"
+        android:text="Perfil"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/psEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/actXboxButton"
+        android:layout_alignLeft="@+id/xboxEditText"
+        android:layout_alignStart="@+id/xboxEditText"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="PS4 ID" />
+
+    <EditText
+        android:id="@+id/xboxEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/actXboxButton"
+        android:layout_alignBottom="@+id/actXboxButton"
+        android:layout_alignLeft="@+id/steamEditText"
+        android:layout_alignStart="@+id/steamEditText"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="XBOX ID" />
+
+    <EditText
+        android:id="@+id/steamEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cambiarFotoButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/cambiarFotoButton"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="STEAM ID" />
+
+    <Button
+        android:id="@+id/actPsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/actXboxButton"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="13dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Actualizar" />
+
+    <Button
+        android:id="@+id/actXboxButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/steamEditText"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="7dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Actualizar" />
+
+    <Button
+        android:id="@+id/actSteamButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/actXboxButton"
+        android:layout_alignStart="@+id/actXboxButton"
+        android:layout_below="@+id/actXboxButton"
+        android:background="@android:color/holo_green_light"
+        android:text="Actualizar" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12"
+        android:layout_below="@+id/fotoImageView"
+        android:text="PS4 ID"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/cambiarFotoButton"
+        android:layout_centerHorizontal="true"
+        android:text="XBOX ID"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/cambiarFotoButton"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12"
+        android:text="STEAM ID"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/psidTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_toEndOf="@+id/cambiarButton"
+        android:layout_toRightOf="@+id/cambiarButton"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/xboxidTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView12"
+        android:layout_alignLeft="@+id/psidTextView"
+        android:layout_alignStart="@+id/psidTextView"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/steamidTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView13"
+        android:layout_alignLeft="@+id/xboxidTextView"
+        android:layout_alignStart="@+id/xboxidTextView"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/cambiarFotoButton"
+        android:layout_alignRight="@+id/cambiarFotoButton"
+        android:layout_below="@+id/cambiarFotoButton"
+        android:background="@android:color/holo_orange_light"
+        android:text="Upload"
+        tools:background="@android:color/holo_orange_light" />
+
+</RelativeLayout>

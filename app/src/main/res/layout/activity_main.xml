@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context="com.example.andre.proyectocerti.MainActivity">
+
+    <Button
+        android:id="@+id/gruposButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="129dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="Grupos" />
+
+    <Button
+        android:id="@+id/invitarAmigosButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/gruposButton"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Invitar Amigos" />
+
+    <Button
+        android:id="@+id/perfilButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gruposButton"
+        android:layout_alignStart="@+id/gruposButton"
+        android:layout_below="@+id/gruposButton"
+        android:layout_marginTop="85dp"
+        android:background="@android:color/holo_purple"
+        android:text="Perfil" />
+
+    <Button
+        android:id="@+id/ajustesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/perfilButton"
+        android:layout_alignBottom="@+id/perfilButton"
+        android:layout_alignLeft="@+id/invitarAmigosButton"
+        android:layout_alignStart="@+id/invitarAmigosButton"
+        android:background="@android:color/holo_blue_light"
+        android:text="Ajustes" />
+
+    <Button
+        android:id="@+id/logOutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ajustesButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:background="@android:color/holo_red_light"
+        android:onClick="logOut"
+        android:text="Log Out" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:text="Main Menu"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</RelativeLayout>
